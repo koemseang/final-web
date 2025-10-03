@@ -1465,7 +1465,6 @@ hr {
         flex-direction: column;
     }
  
-
     .right-img img {
         display: none;
     }
@@ -1549,7 +1548,7 @@ hr {
 
     }
 
-    /* __________________________two-small-banner__________________________ */
+    /* ______________two-small-banner________________ */
 
     .MAIN-CARD {
         width: 100%;
@@ -1563,7 +1562,7 @@ hr {
         width: 100%;
     }
 
-    /* ________________________feature________________________________________ */
+    /* ________________________feature__________________ */
 
     #feature h1 {
         font-size: 50px;
@@ -1582,13 +1581,13 @@ hr {
         border-radius: 30px;
     }
 
-    /* _______________________card line1__________________________________ */
+    /* _______________card line1__________________ */
     .product-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* __________________________dermologist____________________________ */
+    /* _________________dermologist_______________ */
     #dermatologist {
         width: 100%;
         margin-left: -0%;
@@ -1607,7 +1606,7 @@ hr {
 
     }
 
-    /* ____________________deiscount__________________________ */
+    /* ____________________deiscount_______________ */
     .VIP {
         height: 30vh;
         width: 90%;
@@ -1632,7 +1631,7 @@ hr {
         width: 15%;
     }
 
-    /* __________________requently _________________________________________ */
+    /* _______________requently ______________________ */
 
     .frequesntly {
         margin-left: 25%;
@@ -1698,6 +1697,10 @@ hr {
 
 /* __________________Responsive Phone________________________________ */
 @media (max-width: 480px) {
+    .bainner{
+        height: 100vh;
+
+    }
     .card-left {
         width: 100%;
     }
@@ -1718,6 +1721,10 @@ hr {
         
     }
     .contacted, .socials{
+        display: none;
+    }
+    /* -----banner--------------- */
+      .bainner .btn{
         display: none;
     }
 
@@ -1973,7 +1980,9 @@ hr {
     .bainner {
         width: 100%;
         height: 100vh;
+   
     }
+  
 
     .two-cards {
         margin-top: 4em;
