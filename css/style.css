@@ -385,11 +385,10 @@ nav {
 }
 
 /* ____________feature_______________ */
-#feature h1 {
+.feature h1 {
     font-size: 40px;
-    margin: 0;
-    padding: 0;
     text-align: center;
+    margin: 60px 0px 0px 0px;
 }
 
 
@@ -725,7 +724,7 @@ footer {
 }
 
 
-/* __________________________text for body _________________________________________ */
+/* ____________________text for body ___________________ */
 #text-b {
     display: flex;
     justify-content: center;
@@ -736,7 +735,7 @@ footer {
 }
 
 
-/* __________________________text for hair__________________________________ */
+/* ______________________text for hair________________ */
 #text-c {
     display: flex;
     justify-content: center;
@@ -970,7 +969,7 @@ details[open] summary:after {
     margin-top: 10em;
 }
 
-/*____________________________ General Footer Container_________________________________ */
+/*__________________ General Footer Container_______________ */
 footer {
     background-color: #f8bbd0;
     padding: 60px 40px;
@@ -1464,7 +1463,7 @@ hr {
         display: flex;
         flex-direction: column;
     }
- 
+
     .right-img img {
         display: none;
     }
@@ -1564,7 +1563,7 @@ hr {
 
     /* ________________________feature__________________ */
 
-    #feature h1 {
+    .feature h1 {
         font-size: 50px;
     }
 
@@ -1689,21 +1688,18 @@ hr {
     }
 }
 
-@media (max-width: 1280px) {
-    .product-grid {
-        margin-top: 2em;
-    }
-}
-
 /* __________________Responsive Phone________________________________ */
 @media (max-width: 480px) {
-    .bainner{
+    .bainner {
         height: 100vh;
 
     }
+
+
     .card-left {
         width: 100%;
     }
+
     .right-img img {
         display: none;
     }
@@ -1716,15 +1712,19 @@ hr {
     .look-gorgeous button {
         margin-left: 40px;
     }
-    .trust p{
+
+    .trust p {
         display: none;
-        
+
     }
-    .contacted, .socials{
+
+    .contacted,
+    .socials {
         display: none;
     }
+
     /* -----banner--------------- */
-      .bainner .btn{
+    .bainner .btn {
         display: none;
     }
 
@@ -1795,7 +1795,6 @@ hr {
     /* ____________text middle _________________ */
     #span-text h1 {
         margin-left: 60px;
-
     }
 
     #text-a h1 {
@@ -1810,14 +1809,10 @@ hr {
         width: 80%;
     }
 
-    .VIP img {
-        width: 6%;
-    }
-
     /* ________________dermatologist____________________________ */
     #dermatologist {
-        margin-left: -10px;
-        width: 105%;
+        margin-left: 1px;
+        width: 100%;
 
     }
 
@@ -1828,7 +1823,6 @@ hr {
         align-items: center;
         margin-left: -2px;
         font-size: 28px;
-
     }
 
     .recommended p {
@@ -1839,7 +1833,7 @@ hr {
 
     .recommended h3 {
         width: 100%;
-        margin-left: 25px;
+        margin-right: 5em;
     }
 
     /* ______________feedback______________________________ */
@@ -1861,8 +1855,7 @@ hr {
         width: 50%;
     }
 
-
-    /* ____________________-card feedback _________________________________ */
+    /* ____________________-card feedback ______________ */
 
     .three-card {
         display: flex;
@@ -1873,7 +1866,7 @@ hr {
         width: 95%;
     }
 
-    /* ___________________referents_______________________________________ */
+    /* ___________________referents____________________ */
 
     .combind-card {
         display: flex;
@@ -1895,7 +1888,7 @@ hr {
         padding: 25px;
     }
 
-    /* ______________________________dermatologist__________________ */
+    /* ________________________dermatologist__________________ */
 
     .recommended {
         margin-left: -30px;
@@ -1903,7 +1896,7 @@ hr {
     }
 
 
-    /* _________________________requently asked question____________________ */
+    /* ____________________requently asked question____________ */
     .frequesntly {
         width: 95%;
         margin-left: -8px;
@@ -1918,7 +1911,6 @@ hr {
 
     .question {
         width: 100%;
-        /* margin-left: -70px; */
     }
 
     /* ___________________last page________________________________ */
@@ -1980,16 +1972,7 @@ hr {
     .bainner {
         width: 100%;
         height: 100vh;
-   
-    }
-  
 
-    .two-cards {
-        margin-top: 4em;
-    }
-
-    #feature {
-        margin-top: 18em;
     }
 
 }
@@ -2017,6 +2000,9 @@ hr {
 
     .bainner {
         height: 100vh;
+    }
+    .feature{
+        margin-top: 18em;
     }
 }
 
@@ -2074,9 +2060,8 @@ hr {
         flex-direction: column;
     }
 
-    #feature {
+    .feature {
         font-size: 30px;
-        /* margin-top: 50%; */
     }
 
     .multiple-features button {
@@ -2102,7 +2087,7 @@ hr {
         margin-left: 14em;
     }
 
-    #feature {
+    .feature {
         font-size: 15px;
         margin-top: 28em;
     }
@@ -2172,11 +2157,27 @@ hr {
     }
 
     .recommended h3 {
-        margin-left: 9em;
+        margin-left: 5em;
     }
 
     .recommended {
         width: 100%;
     }
 
+
+
+}
+
+@media(min-width: 884px) {
+    .bainner .btn button {
+        width: 30%;
+    }
+
+    .MAIN-CARD .left-img {
+        display: none;
+    }
+
+    .card-left button {
+        width: 50%;
+    }
 }
