@@ -341,7 +341,7 @@ nav {
 .look-gorgeous {
     width: 100%;
     margin: 70px;
-    /* gap: 30px; */
+
 }
 
 .look-gorgeous span {
@@ -369,7 +369,6 @@ nav {
 .right-img img {
     width: 75%;
     margin-left: 4em;
-    /* margin-top: -1px; */
 
 }
 
@@ -614,7 +613,7 @@ footer {
     color: #d42a7a;
 }
 
-/* ___________________________________________VIP class_____________________________ */
+/* _____________________VIP class___________________________ */
 
 
 .VIP {
@@ -978,10 +977,8 @@ footer {
     background-color: #f8bbd0;
     padding: 60px 40px;
     display: flex;
-    /* justify-content: space-between; */
     color: #333;
     gap: 40px;
-
 }
 
 footer h2 {
@@ -1029,7 +1026,6 @@ footer a:hover {
     margin: 15px 0;
     color: #666;
     font-size: 0.95rem;
-
 }
 
 .contact p {
@@ -1053,7 +1049,7 @@ footer a:hover {
     justify-content: flex-start;
 }
 
-/* _______________________Footer Columns_________________________________ */
+/* _______________________Footer Columns_____________________ */
 .about-us,
 .support,
 .service-links,
@@ -1061,7 +1057,7 @@ footer a:hover {
     flex: 1 1 180px;
 }
 
-/* ____________________________Social Icons_________________________________ */
+/* ____________________________Social Icons__________________ */
 .Socials li {
     list-style: none;
     display: flex;
@@ -1086,7 +1082,7 @@ footer a:hover {
     margin-left: 40px;
 }
 
-/* ____________________________Optional Card Top Section_________________________________ */
+/* _____________Optional Card Top Section___________________ */
 #main-footer {
     display: flex;
     justify-content: space-around;
@@ -1439,7 +1435,6 @@ footer a:hover {
 /* ___________Divider_________________ */
 
 hr {
-    /* border: none; */
     border-top: 1px solid #666;
     margin: 0;
 }
@@ -1459,8 +1454,7 @@ hr {
     border-top: 1px solid gray;
 }
 
-
-/* _____________________Responsive _ tebplate ____________________________________________*/
+/* _____________________Responsive _ tebplate _____________________*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .look-gorgeous {
