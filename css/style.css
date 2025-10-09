@@ -1,9 +1,10 @@
 * {
     margin: 0;
-
     font-family: serif;
 }
-
+body{
+    overflow-x: hidden;
+}
 ::-webkit-scrollbar {
     width: 0px;
 }
